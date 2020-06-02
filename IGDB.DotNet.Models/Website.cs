@@ -2,8 +2,9 @@
 using System.Text;
 
 namespace IGDB.DotNet.Models
-{
-
+{    ///<summary>
+    /// Model description for Website
+    ///</summary>
     public class Website
     {
         public ulong Id { get; set; }

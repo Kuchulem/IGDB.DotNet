@@ -1,5 +1,7 @@
-﻿namespace IGDB.DotNet.Models
-{
+﻿namespace IGDB.DotNet.Models.Enums
+{    ///<summary>
+    /// Enum description for AchievementCategoryEnum
+    ///</summary>
     public enum AchievementCategoryEnum
     {
         ACHIEVEMENT_CATEGORY_NULL = 0,

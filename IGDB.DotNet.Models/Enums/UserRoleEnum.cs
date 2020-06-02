@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace IGDB.DotNet.Models
-{
+namespace IGDB.DotNet.Models.Enums
+{    ///<summary>
+    /// Enum description for UserRoleEnum
+    ///</summary>
     public enum UserRoleEnum
     {
         USER_ROLE_NULL = 0,

@@ -1,5 +1,7 @@
 ﻿namespace IGDB.DotNet.Models.Enums
-{
+{    ///<summary>
+    /// Enum description for WebsiteCategoryEnum
+    ///</summary>
     public enum WebsiteCategoryEnum
     {
         WEBSITE_CATEGORY_NULL = 0,
