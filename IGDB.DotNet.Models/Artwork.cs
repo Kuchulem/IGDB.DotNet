@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for Artwork
     ///</summary>
-    public class Artwork
+    public class Artwork : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

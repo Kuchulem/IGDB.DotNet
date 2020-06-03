@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Collection
     ///</summary>
-    public class Collection
+    public class Collection : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

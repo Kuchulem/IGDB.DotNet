@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Genre
     ///</summary>
-    public class Genre
+    public class Genre : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

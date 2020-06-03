@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for PulseGroup
     ///</summary>
-    public class PulseGroup
+    public class PulseGroup : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

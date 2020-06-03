@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Review
     ///</summary>
-    public class Review
+    public class Review : IEndpoint
     {
         public ulong Id { get; set; }
         public ReviewCategoryEnum Category { get; set; }

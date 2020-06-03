@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for PlatformVersion
     ///</summary>
-    public class PlatformVersion
+    public class PlatformVersion : IEndpoint
     {
         public ulong Id { get; set; }
         public IEnumerable<PlatformVersionCompany> Companies { get; set; }

@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Person
     ///</summary>
-    public class Person
+    public class Person : IEndpoint
     {
         public ulong Id { get; set; }
         public string Bio { get; set; }

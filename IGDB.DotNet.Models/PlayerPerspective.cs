@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for PlayerPerspective
     ///</summary>
-    public class PlayerPerspective
+    public class PlayerPerspective : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

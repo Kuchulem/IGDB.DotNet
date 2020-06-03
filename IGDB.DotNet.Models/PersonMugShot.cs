@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for PersonMugShot
     ///</summary>
-    public class PersonMugShot
+    public class PersonMugShot : IEndpoint
     {
         public ulong Id { get; set; }
         public int Height { get; set; }

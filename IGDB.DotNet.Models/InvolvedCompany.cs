@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for InvolvedCompany
     ///</summary>
-    public class InvolvedCompany
+    public class InvolvedCompany : IEndpoint
     {
         public ulong Id { get; set; }
         public Company Company { get; set; }

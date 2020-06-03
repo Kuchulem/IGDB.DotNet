@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for CharacterMugShot
     ///</summary>
-    public class CharacterMugShot
+    public class CharacterMugShot : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

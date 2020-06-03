@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Keyword
     ///</summary>
-    public class Keyword
+    public class Keyword : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

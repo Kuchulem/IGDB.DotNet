@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for ProductFamily
     ///</summary>
-    public class ProductFamily
+    public class ProductFamily : IEndpoint
     {
         public ulong Id { get; set; }
         public string Name { get; set; }

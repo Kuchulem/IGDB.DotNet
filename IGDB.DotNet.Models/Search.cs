@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Search
     ///</summary>
-    public class Search
+    public class Search : IEndpoint
     {
         public ulong Id { get; set; }
         public string AlternativeName { get; set; }

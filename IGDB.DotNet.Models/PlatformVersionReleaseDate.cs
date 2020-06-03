@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for PlatformVersionReleaseDate
     ///</summary>
-    public class PlatformVersionReleaseDate
+    public class PlatformVersionReleaseDate : IEndpoint
     {
         public ulong Id { get; set; }
         public DateFormatChangeDateCategoryEnum Category { get; set; }

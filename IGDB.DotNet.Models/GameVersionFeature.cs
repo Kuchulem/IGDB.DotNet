@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for GameVersionFeature
     ///</summary>
-    public class GameVersionFeature
+    public class GameVersionFeature : IEndpoint
     {
         public ulong Id { get; set; }
         public GameVersionFeatureCategoryEnum Category { get; set; }

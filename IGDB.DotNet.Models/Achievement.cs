@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Achievement
     ///</summary>
-    public class Achievement
+    public class Achievement : IEndpoint
     {
         public ulong Id { get; set; }
         public AchievementIcon AchievementIcon { get; set; }

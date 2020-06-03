@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Title
     ///</summary>
-    public class Title
+    public class Title : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

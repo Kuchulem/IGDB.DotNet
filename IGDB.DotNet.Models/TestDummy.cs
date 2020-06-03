@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for TestDummy
     ///</summary>
-    public class TestDummy
+    public class TestDummy : IEndpoint
     {
         public ulong Id { get; set; }
         public bool BoolValue { get; set; }

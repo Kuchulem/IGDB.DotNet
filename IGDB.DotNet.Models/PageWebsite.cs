@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for PageWebsite
     ///</summary>
-    public class PageWebsite
+    public class PageWebsite : IEndpoint
     {
         public ulong Id { get; set; }
         public WebsiteCategoryEnum Category { get; set; }

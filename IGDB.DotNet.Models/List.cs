@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for List
     ///</summary>
-    public class List
+    public class List : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

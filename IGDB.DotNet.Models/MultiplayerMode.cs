@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for MultiplayerMode
     ///</summary>
-    public class MultiplayerMode
+    public class MultiplayerMode : IEndpoint
     {
         public ulong Id { get; set; }
         public bool Campaigncoop { get; set; }

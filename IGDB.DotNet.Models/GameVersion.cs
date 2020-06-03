@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for GameVersion
     ///</summary>
-    public class GameVersion
+    public class GameVersion : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

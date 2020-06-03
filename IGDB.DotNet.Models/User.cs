@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for User
     ///</summary>
-    public class User
+    public class User : IEndpoint
     {
         public ulong Id { get; set; }
         public string Battlenet { get; set; }

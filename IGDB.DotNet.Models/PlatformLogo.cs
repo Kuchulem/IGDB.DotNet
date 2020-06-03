@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for PlatformLogo
     ///</summary>
-    public class PlatformLogo
+    public class PlatformLogo : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for PulseSource
     ///</summary>
-    public class PulseSource
+    public class PulseSource : IEndpoint
     {
         public ulong Id { get; set; }
         public Game Game { get; set; }

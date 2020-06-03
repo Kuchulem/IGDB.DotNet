@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Theme
     ///</summary>
-    public class Theme
+    public class Theme : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

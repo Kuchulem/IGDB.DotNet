@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for ExternalGame
     ///</summary>
-    public class ExternalGame
+    public class ExternalGame : IEndpoint
     {
         public ulong Id { get; set; }
         public ExternalGameCategoryEnum Category { get; set; }

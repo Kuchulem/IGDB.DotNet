@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for ListEntry
     ///</summary>
-    public class ListEntry
+    public class ListEntry : IEndpoint
     {
         public ulong Id { get; set; }
         public string Description { get; set; }

@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for GameVideo
     ///</summary>
-    public class GameVideo
+    public class GameVideo : IEndpoint
     {
         public ulong Id { get; set; }
         public Game Game { get; set; }

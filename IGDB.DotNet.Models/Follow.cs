@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for Follow
     ///</summary>
-    public class Follow
+    public class Follow : IEndpoint
     {
         public ulong Id { get; set; }
         public Game Game { get; set; }

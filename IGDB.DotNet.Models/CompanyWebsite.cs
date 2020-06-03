@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for CompanyWebsite
     ///</summary>
-    public class CompanyWebsite
+    public class CompanyWebsite : IEndpoint
     {
         public ulong Id { get; set; }
         public WebsiteCategoryEnum Category { get; set; }

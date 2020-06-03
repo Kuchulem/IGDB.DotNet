@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for ReleaseDate
     ///</summary>
-    public class ReleaseDate
+    public class ReleaseDate : IEndpoint
     {
         public ulong Id { get; set; }
         public DateFormatChangeDateCategoryEnum Category { get; set; }

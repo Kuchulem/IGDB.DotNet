@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Feed
     ///</summary>
-    public class Feed
+    public class Feed : IEndpoint
     {
         public ulong Id { get; set; }
         public FeedCategoryEnum Category { get; set; }

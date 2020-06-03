@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for GameEngineLogo
     ///</summary>
-    public class GameEngineLogo
+    public class GameEngineLogo : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

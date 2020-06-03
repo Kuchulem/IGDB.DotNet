@@ -2,10 +2,11 @@
 using System.Text;
 
 namespace IGDB.DotNet.Models
-{    ///<summary>
+{
+    ///<summary>
     /// Model description for Website
     ///</summary>
-    public class Website
+    public class Website : IEndpoint
     {
         public ulong Id { get; set; }
         public WebsiteCategoryEnum Category { get; set; }

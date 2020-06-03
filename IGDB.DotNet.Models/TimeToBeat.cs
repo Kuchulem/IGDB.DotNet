@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for TimeToBeat
     ///</summary>
-    public class TimeToBeat
+    public class TimeToBeat : IEndpoint
     {
         public ulong Id { get; set; }
         public int Completely { get; set; }

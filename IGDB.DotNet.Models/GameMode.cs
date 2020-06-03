@@ -5,7 +5,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for GameMode
     ///</summary>
-    public class GameMode
+    public class GameMode : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

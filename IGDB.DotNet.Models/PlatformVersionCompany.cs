@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for PlatformVersionCompany
     ///</summary>
-    public class PlatformVersionCompany
+    public class PlatformVersionCompany : IEndpoint
     {
         public ulong Id { get; set; }
         public string Comment { get; set; }

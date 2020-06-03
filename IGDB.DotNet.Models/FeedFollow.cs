@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for FeedFollow
     ///</summary>
-    public class FeedFollow
+    public class FeedFollow : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

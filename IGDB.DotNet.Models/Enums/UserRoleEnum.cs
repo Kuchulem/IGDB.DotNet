@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace IGDB.DotNet.Models.Enums
-{    ///<summary>
+{
+    ///<summary>
     /// Enum description for UserRoleEnum
     ///</summary>
     public enum UserRoleEnum

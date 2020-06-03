@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for AchievementIcon
     ///</summary>
-    public class AchievementIcon
+    public class AchievementIcon : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

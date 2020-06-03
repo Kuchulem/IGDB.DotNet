@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Pulse
     ///</summary>
-    public class Pulse
+    public class Pulse : IEndpoint
     {
         public ulong Id { get; set; }
         public string Author { get; set; }

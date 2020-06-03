@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for CompanyLogo
     ///</summary>
-    public class CompanyLogo
+    public class CompanyLogo : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Franchise
     ///</summary>
-    public class Franchise
+    public class Franchise : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime CreatedAt { get; set; }

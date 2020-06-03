@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for PulseImage
     ///</summary>
-    public class PulseImage
+    public class PulseImage : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

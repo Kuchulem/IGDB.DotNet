@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Company
     ///</summary>
-    public class Company
+    public class Company : IEndpoint
     {
         public ulong Id { get; set; }
         public DateTime ChangeDate { get; set; }

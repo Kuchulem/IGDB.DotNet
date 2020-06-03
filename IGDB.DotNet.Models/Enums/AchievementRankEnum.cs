@@ -1,5 +1,6 @@
 ﻿namespace IGDB.DotNet.Models.Enums
-{    ///<summary>
+{
+    ///<summary>
     /// Enum description for AchievementRankEnum
     ///</summary>
     public enum AchievementRankEnum

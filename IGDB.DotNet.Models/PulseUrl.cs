@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for PulseUrl
     ///</summary>
-    public class PulseUrl
+    public class PulseUrl : IEndpoint
     {
         public ulong Id { get; set; }
         public bool Trusted { get; set; }

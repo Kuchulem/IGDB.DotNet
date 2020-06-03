@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for ReviewVideo
     ///</summary>
-    public class ReviewVideo
+    public class ReviewVideo : IEndpoint
     {
         public ulong Id { get; set; }
         public bool Trusted { get; set; }

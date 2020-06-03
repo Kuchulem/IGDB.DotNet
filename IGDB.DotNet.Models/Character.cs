@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Character
     ///</summary>
-    public class Character
+    public class Character : IEndpoint
     {
         public ulong Id { get; set; }
         public IEnumerable<string> Akas { get; set; }

@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Platform
     ///</summary>
-    public class Platform
+    public class Platform : IEndpoint
     {
         public ulong Id { get; set; }
         public string Abbreviation { get; set; }

@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for PageLogo
     ///</summary>
-    public class PageLogo
+    public class PageLogo : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

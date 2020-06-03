@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Credit
     ///</summary>
-    public class Credit
+    public class Credit : IEndpoint
     {
         public ulong Id { get; set; }
         public CreditCategoryEnum Category { get; set; }

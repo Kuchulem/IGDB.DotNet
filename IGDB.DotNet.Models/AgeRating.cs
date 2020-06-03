@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for AgeRating
     ///</summary>
-    public class AgeRating
+    public class AgeRating : IEndpoint
     {
         public ulong Id { get; set; }
         public AgeRatingCategoryEnum Category { get; set; }

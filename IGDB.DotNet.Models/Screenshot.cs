@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for Screenshot
     ///</summary>
-    public class Screenshot
+    public class Screenshot : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

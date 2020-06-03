@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Page
     ///</summary>
-    public class Page
+    public class Page : IEndpoint
     {
         public ulong Id { get; set; }
         public PageBackground Background { get; set; }

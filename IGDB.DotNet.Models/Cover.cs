@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for Cover
     ///</summary>
-    public class Cover
+    public class Cover : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

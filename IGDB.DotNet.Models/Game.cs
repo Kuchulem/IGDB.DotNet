@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for Game
     ///</summary>
-    public class Game
+    public class Game : IEndpoint
     {
         public ulong Id { get; set; }
         public IEnumerable<AgeRating> AgeRatings { get; set; }

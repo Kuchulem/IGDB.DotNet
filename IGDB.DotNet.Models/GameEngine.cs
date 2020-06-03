@@ -6,7 +6,7 @@ namespace IGDB.DotNet.Models
     ///<summary>
     /// Model description for GameEngine
     ///</summary>
-    public class GameEngine
+    public class GameEngine : IEndpoint
     {
         public ulong Id { get; set; }
         public IEnumerable<Company> Companies { get; set; }

@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for PageBackground
     ///</summary>
-    public class PageBackground
+    public class PageBackground : IEndpoint
     {
         public ulong Id { get; set; }
         public bool AlphaChannel { get; set; }

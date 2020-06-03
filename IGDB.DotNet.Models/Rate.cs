@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for Rate
     ///</summary>
-    public class Rate
+    public class Rate : IEndpoint
     {
         public ulong Id { get; set; }
         public Game Game { get; set; }

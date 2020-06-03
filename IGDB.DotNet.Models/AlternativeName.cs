@@ -3,7 +3,7 @@
     ///<summary>
     /// Model description for AlternativeName
     ///</summary>
-    public class AlternativeName
+    public class AlternativeName : IEndpoint
     {
         public ulong Id { get; set; }
         public string Comment { get; set; }
