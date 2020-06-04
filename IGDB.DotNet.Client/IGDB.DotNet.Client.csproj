@@ -2,11 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.0.0-beta01</Version>
+    <Authors>Kuchulem</Authors>
+    <Description>Client library for IGDB API v3</Description>
+    <Copyright>2020 Kuchulem</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Kuchulem/IGDB.DotNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Kuchulem/IGDB.DotNet</RepositoryUrl>
+    <PackageTags>api igdb</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Apicalypse.DotNet\Apicalypse.DotNet\Apicalypse.DotNet.csproj" />
+    <PackageReference Include="Apicalypse.DotNet" Version="1.0.0-beta05" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\IGDB.DotNet.Models\IGDB.DotNet.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Apicalypse.DotNet\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

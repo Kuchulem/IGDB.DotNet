@@ -30,7 +30,7 @@ namespace IGDB.DotNet.Client.Demo
                     .Query(builder =>
                         builder
                             .Select<GameShort>()
-                            .Where(g => g.Name.StartsWith("Worms"))
+                            .Where(g => g.Name.EndsWith("Foo", StringComparison.InvariantCultureIgnoreCase))
                     )
                     .Call<GameShort>(client).GetAwaiter().GetResult();
 
