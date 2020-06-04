@@ -10,7 +10,7 @@ Client library for [IGDB API](https://api-docs.igdb.com/#about).
 
 *recommended*
 
-In Visual studio *Package Manager* : search for `IGDB.DotNet` and click `install` on the right panel
+In Visual studio *Package Manager* : search for `IGDB.DotNet.Client` and click `install` on the right panel
 
 In command line :
 
