@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGDB.DotNet.Client", "IGDB.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGDB.DotNet.Client.Demo", "IGDB.DotNet.Client.Demo\IGDB.DotNet.Client.Demo.csproj", "{7CF652C5-0B7E-4997-AFFC-FD7414F7BF15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGDB.DotNet.Tests", "IGDB.DotNet.Tests\IGDB.DotNet.Tests.csproj", "{D17DBCC0-69FC-44CB-8B9E-869FDBBBE93F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7CF652C5-0B7E-4997-AFFC-FD7414F7BF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF652C5-0B7E-4997-AFFC-FD7414F7BF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CF652C5-0B7E-4997-AFFC-FD7414F7BF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17DBCC0-69FC-44CB-8B9E-869FDBBBE93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17DBCC0-69FC-44CB-8B9E-869FDBBBE93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17DBCC0-69FC-44CB-8B9E-869FDBBBE93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17DBCC0-69FC-44CB-8B9E-869FDBBBE93F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -38,6 +38,8 @@ namespace IGDB.DotNet.Client
         public Task<IEnumerable<TResult>> Call<TResult>(HttpClient httpClient)
             where TResult : new()
         {
+            if (query is null)
+                throw new Exception("No query provided");
             httpClient.BaseAddress = igdbConfiguration.IgbdUrl;
 
             if (httpClient.DefaultRequestHeaders.Contains(UserKeyHeaderName))
