@@ -11,7 +11,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "test"
-  pack:
+  publish:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -32,9 +32,10 @@ jobs:
     - name: Execute unit tests
       run: dotnet test --configuration Release
 
-    # Execute all unit tests in the solution
+    # Pack the library
     - name: Pack the lib
       run: dotnet pack IGDB.DotNet.Client/IGDB.DotNet.Client.csproj --configuration Release --output nuget-packages
     
+    # Publish the library
     - name: Publish the lib
       run: dotnet nuget push nuget-packages/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
