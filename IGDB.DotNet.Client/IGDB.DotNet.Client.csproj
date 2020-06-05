@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>1.0.0-beta01</Version>
+    <Version>1.0.0-beta02</Version>
     <Authors>Kuchulem</Authors>
     <Description>Client library for IGDB API v3</Description>
     <Copyright>2020 Kuchulem</Copyright>
