@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 
 namespace IGDB.DotNet.Client
 {
+    /// <summary>
+    /// Entry point for the lib
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class IgdbClient<T>
         where T : IEndpoint
     {
@@ -18,11 +22,20 @@ namespace IGDB.DotNet.Client
         private readonly IIgdbConfiguration igdbConfiguration;
         private Action<RequestBuilder<T>> query;
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="igdbConfiguration"></param>
         public IgdbClient(IIgdbConfiguration igdbConfiguration)
         {
             this.igdbConfiguration = igdbConfiguration;
         }
 
+        /// <summary>
+        /// Defines the query statements
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
         public IgdbClient<T> Query(Action<RequestBuilder<T>> query)
         {
             if (query is null)
@@ -35,11 +48,21 @@ namespace IGDB.DotNet.Client
             return this;
         }
 
+        /// <summary>
+        /// Calls the API and gets the results
+        /// </summary>
+        /// <typeparam name="TResult"></typeparam>
+        /// <param name="httpClient"></param>
+        /// <returns></returns>
         public Task<IEnumerable<TResult>> Call<TResult>(HttpClient httpClient)
             where TResult : new()
         {
             if (query is null)
                 throw new Exception("No query provided");
+
+            if (httpClient is null)
+                throw new ArgumentNullException(nameof(httpClient));
+
             httpClient.BaseAddress = igdbConfiguration.IgbdUrl;
 
             if (httpClient.DefaultRequestHeaders.Contains(UserKeyHeaderName))
@@ -47,7 +70,10 @@ namespace IGDB.DotNet.Client
 
             httpClient.DefaultRequestHeaders.Add(UserKeyHeaderName, igdbConfiguration.UserToken);
 
-            var builder = new RequestBuilder<T>();
+            var builder = new RequestBuilder<T>(new Apicalypse.DotNet.Configuration.RequestBuilderConfiguration
+            {
+                CaseContract = Apicalypse.DotNet.Configuration.CaseContract.SnakeCase
+            });
 
             query.Invoke(builder);
 
