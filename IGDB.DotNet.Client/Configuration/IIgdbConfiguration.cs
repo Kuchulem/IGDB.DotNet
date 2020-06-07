@@ -12,7 +12,7 @@ namespace IGDB.DotNet.Client.Configuration
         /// <summary>
         /// Url to IGDB
         /// </summary>
-        Uri IgbdUrl { get; }
+        Uri IgdbUrl { get; }
 
         /// <summary>
         /// IGDB user token

@@ -41,7 +41,7 @@ namespace IGDB.DotNet.Tests
                 .GetAwaiter().GetResult()
                 .FirstOrDefault();
 
-            Assert.AreEqual(config.IgbdUrl + "games", result.Url);
+            Assert.AreEqual(config.IgdbUrl + "games", result.Url);
         }
 
         [Test]

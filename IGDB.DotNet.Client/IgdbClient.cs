@@ -61,7 +61,7 @@ namespace IGDB.DotNet.Client
             if (httpClient is null)
                 throw new ArgumentNullException(nameof(httpClient));
 
-            httpClient.BaseAddress = igdbConfiguration.IgbdUrl;
+            httpClient.BaseAddress = igdbConfiguration.IgdbUrl;
 
             if (httpClient.DefaultRequestHeaders.Contains(UserKeyHeaderName))
                 httpClient.DefaultRequestHeaders.Remove(UserKeyHeaderName);

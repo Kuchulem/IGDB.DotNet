@@ -7,7 +7,7 @@ namespace IGDB.DotNet.Tests.Mocks
 {
     class IgdbConfiguration : IIgdbConfiguration
     {
-        public Uri IgbdUrl => new Uri("https://mocked.url.org");
+        public Uri IgdbUrl => new Uri("https://mocked.url.org");
 
         public string UserToken => "mocked-user-token";
     }

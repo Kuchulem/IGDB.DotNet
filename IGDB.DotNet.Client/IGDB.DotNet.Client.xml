@@ -9,7 +9,7 @@
             Configuration interface for IgdbClient
             </summary>
         </member>
-        <member name="P:IGDB.DotNet.Client.Configuration.IIgdbConfiguration.IgbdUrl">
+        <member name="P:IGDB.DotNet.Client.Configuration.IIgdbConfiguration.IgdbUrl">
             <summary>
             Url to IGDB
             </summary>
