@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IGDB.DotNet.Client</name>
+    </assembly>
+    <members>
+        <member name="T:IGDB.DotNet.Client.Configuration.IIgdbConfiguration">
+            <summary>
+            Configuration interface for IgdbClient
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Client.Configuration.IIgdbConfiguration.IgbdUrl">
+            <summary>
+            Url to IGDB
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Client.Configuration.IIgdbConfiguration.UserToken">
+            <summary>
+            IGDB user token
+            </summary>
+        </member>
+        <member name="M:IGDB.DotNet.Client.Endpoints.EndpointMapper.Map``1">
+            <summary>
+            Maps the API endpoints with the API models
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:IGDB.DotNet.Client.IgdbClient`1">
+            <summary>
+            Entry point for the lib
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:IGDB.DotNet.Client.IgdbClient`1.#ctor(IGDB.DotNet.Client.Configuration.IIgdbConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="igdbConfiguration"></param>
+        </member>
+        <member name="M:IGDB.DotNet.Client.IgdbClient`1.Query(System.Action{Apicalypse.DotNet.RequestBuilder{`0}})">
+            <summary>
+            Defines the query statements
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGDB.DotNet.Client.IgdbClient`1.Call``1(System.Net.Http.HttpClient)">
+            <summary>
+            Calls the API and gets the results
+            </summary>
+            <typeparam name="TResult"></typeparam>
+            <param name="httpClient"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

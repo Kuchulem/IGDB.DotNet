@@ -7,8 +7,13 @@ using System.Text;
 
 namespace IGDB.DotNet.Client.Endpoints
 {
-    public static class EndpointMapper
+    internal static class EndpointMapper
     {
+        /// <summary>
+        /// Maps the API endpoints with the API models
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
         public static string Map<T>()
             where T : IEndpoint
         {
@@ -27,7 +32,7 @@ namespace IGDB.DotNet.Client.Endpoints
                 "Rate" => "private/rates",
                 "Review" => "private/reviews",
                 "ReviewVideo" => "private/review_videos",
-                _ => typeof(T).Name.ToUnderscoreCase() + "s"
+                _ => typeof(T).Name.ToSnakeCase() + "s"
             };
         }
     }
