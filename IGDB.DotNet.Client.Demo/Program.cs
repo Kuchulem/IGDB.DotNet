@@ -14,7 +14,7 @@ namespace IGDB.DotNet.Client.Demo
         {
             if(args.Length < 1)
             {
-                Console.WriteLine("Please privide your IGDB user key as argument :)");
+                Console.WriteLine("Please provide your IGDB user key as argument :)");
                 return;
             }
 
@@ -30,10 +30,10 @@ namespace IGDB.DotNet.Client.Demo
                     .Query(builder =>
                         builder
                             .Select<GameShort>()
-                            .Where(g => g.Name.EndsWith("Foo", StringComparison.InvariantCultureIgnoreCase))
+                            .Where(g => g.Name.Contains("Stick fight", StringComparison.InvariantCultureIgnoreCase))
+                            .Take(20)
                     )
                     .Call<GameShort>(client).GetAwaiter().GetResult();
-
 
             if(results is null)
             {
@@ -43,7 +43,7 @@ namespace IGDB.DotNet.Client.Demo
             Console.WriteLine($"Found {results.Count()} results :");
             foreach(var result in results)
             {
-                Console.WriteLine($"  > {result.Name}");
+                Console.WriteLine($"  > {result.Name} - {result.Cover?.Url}");
             }
         }
     }
