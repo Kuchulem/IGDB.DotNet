@@ -39,9 +39,7 @@ namespace IGDB.DotNet.Client
         public IgdbClient<T> Query(Action<RequestBuilder<T>> query)
         {
             if (query is null)
-            {
                 throw new ArgumentNullException(nameof(query));
-            }
 
             this.query = query;
 

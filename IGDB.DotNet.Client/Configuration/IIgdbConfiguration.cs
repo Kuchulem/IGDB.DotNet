@@ -4,9 +4,19 @@ using System.Text;
 
 namespace IGDB.DotNet.Client.Configuration
 {
+    /// <summary>
+    /// Configuration interface for IgdbClient
+    /// </summary>
     public interface IIgdbConfiguration
     {
+        /// <summary>
+        /// Url to IGDB
+        /// </summary>
         Uri IgbdUrl { get; }
+
+        /// <summary>
+        /// IGDB user token
+        /// </summary>
         string UserToken { get; }
     }
 }
