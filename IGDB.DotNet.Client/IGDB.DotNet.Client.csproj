@@ -17,10 +17,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IGDB.DotNet.Models\IGDB.DotNet.Models.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -29,6 +25,7 @@
 
   <ItemGroup>
     <PackageReference Include="Apicalypse.DotNet" Version="1.0.0" />
+    <PackageReference Include="IGDB.DotNet.Models" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
