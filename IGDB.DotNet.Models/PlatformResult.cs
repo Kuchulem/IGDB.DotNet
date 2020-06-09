@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class PlatformResult
     {
+
+        /// <summary>
+        /// Platforms
+        /// </summary>
         public IEnumerable<Platform> Platforms { get; set; }
     }
 

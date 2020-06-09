@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class RateResult
     {
+
+        /// <summary>
+        /// Rates
+        /// </summary>
         public IEnumerable<Rate> Rates { get; set; }
     }
 

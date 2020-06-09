@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class PlayerPerspectiveResult
     {
+
+        /// <summary>
+        /// Playerperspectives
+        /// </summary>
         public IEnumerable<PlayerPerspective> Playerperspectives { get; set; }
     }
 

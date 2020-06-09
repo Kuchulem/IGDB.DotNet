@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class AchievementResult
     {
+
+        /// <summary>
+        /// Achievements
+        /// </summary>
         public IEnumerable<Achievement> Achievements { get; set; }
     }
 

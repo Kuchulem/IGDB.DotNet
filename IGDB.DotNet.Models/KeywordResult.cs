@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class KeywordResult
     {
+
+        /// <summary>
+        /// Keywords
+        /// </summary>
         public IEnumerable<Keyword> Keywords { get; set; }
     }
 

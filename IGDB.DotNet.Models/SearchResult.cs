@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class SearchResult
     {
+
+        /// <summary>
+        /// Searches
+        /// </summary>
         public IEnumerable<Search> Searches { get; set; }
     }
 

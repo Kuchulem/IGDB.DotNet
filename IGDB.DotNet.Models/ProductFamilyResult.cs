@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class ProductFamilyResult
     {
+
+        /// <summary>
+        /// Productfamilies
+        /// </summary>
         public IEnumerable<ProductFamily> Productfamilies { get; set; }
     }
 

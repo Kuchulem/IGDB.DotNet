@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class CoverResult
     {
+
+        /// <summary>
+        /// Covers
+        /// </summary>
         public IEnumerable<Cover> Covers { get; set; }
     }
 

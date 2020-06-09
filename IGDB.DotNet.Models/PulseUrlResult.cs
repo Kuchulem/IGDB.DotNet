@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class PulseUrlResult
     {
+
+        /// <summary>
+        /// Pulseurls
+        /// </summary>
         public IEnumerable<PulseUrl> Pulseurls { get; set; }
     }
 

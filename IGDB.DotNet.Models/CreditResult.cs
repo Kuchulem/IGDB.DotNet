@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class CreditResult
     {
+
+        /// <summary>
+        /// Credits
+        /// </summary>
         public IEnumerable<Credit> Credits { get; set; }
     }
 

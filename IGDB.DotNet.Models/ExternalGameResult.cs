@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class ExternalGameResult
     {
+
+        /// <summary>
+        /// Externalgames
+        /// </summary>
         public IEnumerable<ExternalGame> Externalgames { get; set; }
     }
 

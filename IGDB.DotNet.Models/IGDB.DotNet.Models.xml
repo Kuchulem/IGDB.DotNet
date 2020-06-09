@@ -9,9 +9,134 @@
              Model description for Achievement
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.AchievementIcon">
+            <summary>
+            AchievementIcon
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.ExternalId">
+            <summary>
+            ExternalId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Language">
+            <summary>
+            Language
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.LockedAchievementIcon">
+            <summary>
+            LockedAchievementIcon
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Owners">
+            <summary>
+            Owners
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.OwnersPercentage">
+            <summary>
+            OwnersPercentage
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Rank">
+            <summary>
+            Rank
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Tags">
+            <summary>
+            Tags
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Achievement.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.AchievementIcon">
             <summary>
              Model description for AchievementIcon
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIcon.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIcon.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIcon.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIcon.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIcon.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIcon.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIcon.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIcon.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.AchievementIconResult">
@@ -19,9 +144,19 @@
              Model description for AchievementIconResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.AchievementIconResult.Achievementicons">
+            <summary>
+            Achievementicons
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.AchievementResult">
             <summary>
              Model description for AchievementResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AchievementResult.Achievements">
+            <summary>
+            Achievements
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.AgeRating">
@@ -29,9 +164,64 @@
              Model description for AgeRating
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.AgeRating.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRating.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRating.ContentDescriptions">
+            <summary>
+            ContentDescriptions
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRating.Rating">
+            <summary>
+            Rating
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRating.RatingCoverUrl">
+            <summary>
+            RatingCoverUrl
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRating.Synopsis">
+            <summary>
+            Synopsis
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRating.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.AgeRatingContentDescription">
             <summary>
              Model description for AgeRatingContentDescription
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRatingContentDescription.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRatingContentDescription.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRatingContentDescription.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRatingContentDescription.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.AgeRatingContentDescriptionResult">
@@ -39,9 +229,19 @@
              Model description for AgeRatingContentDescriptionResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.AgeRatingContentDescriptionResult.Ageratingcontentdescriptions">
+            <summary>
+            Ageratingcontentdescriptions
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.AgeRatingResult">
             <summary>
              Model description for AgeRatingResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AgeRatingResult.Ageratings">
+            <summary>
+            Ageratings
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.AlternativeName">
@@ -49,9 +249,39 @@
              Model description for AlternativeName
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.AlternativeName.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AlternativeName.Comment">
+            <summary>
+            Comment
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AlternativeName.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AlternativeName.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AlternativeName.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.AlternativeNameResult">
             <summary>
              Model description for AlternativeNameResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.AlternativeNameResult.Alternativenames">
+            <summary>
+            Alternativenames
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Artwork">
@@ -59,9 +289,59 @@
              Model description for Artwork
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Artwork.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ArtworkResult">
             <summary>
              Model description for ArtworkResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ArtworkResult.Artworks">
+            <summary>
+            Artworks
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Character">
@@ -69,9 +349,124 @@
              Model description for Character
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Character.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Akas">
+            <summary>
+            Akas
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.CountryName">
+            <summary>
+            CountryName
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Games">
+            <summary>
+            Games
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Gender">
+            <summary>
+            Gender
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.MugShot">
+            <summary>
+            MugShot
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.People">
+            <summary>
+            People
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Species">
+            <summary>
+            Species
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Character.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.CharacterMugShot">
             <summary>
              Model description for CharacterMugShot
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShot.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShot.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShot.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShot.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShot.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShot.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShot.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShot.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.CharacterMugShotResult">
@@ -79,9 +474,19 @@
              Model description for CharacterMugShotResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.CharacterMugShotResult.Charactermugshots">
+            <summary>
+            Charactermugshots
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.CharacterResult">
             <summary>
              Model description for CharacterResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CharacterResult.Characters">
+            <summary>
+            Characters
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Collection">
@@ -89,9 +494,54 @@
              Model description for Collection
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Collection.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Collection.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Collection.Games">
+            <summary>
+            Games
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Collection.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Collection.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Collection.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Collection.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Collection.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.CollectionResult">
             <summary>
              Model description for CollectionResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CollectionResult.Collections">
+            <summary>
+            Collections
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Company">
@@ -99,9 +549,144 @@
              Model description for Company
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Company.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.ChangeDate">
+            <summary>
+            ChangeDate
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.ChangeDateCategory">
+            <summary>
+            ChangeDateCategory
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.ChangedCompanyId">
+            <summary>
+            ChangedCompanyId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Country">
+            <summary>
+            Country
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Developed">
+            <summary>
+            Developed
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Logo">
+            <summary>
+            Logo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Parent">
+            <summary>
+            Parent
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Published">
+            <summary>
+            Published
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.StartDate">
+            <summary>
+            StartDate
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.StartDateCategory">
+            <summary>
+            StartDateCategory
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Websites">
+            <summary>
+            Websites
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Company.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.CompanyLogo">
             <summary>
              Model description for CompanyLogo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogo.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogo.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogo.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogo.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogo.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogo.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogo.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.CompanyLogoResult">
@@ -109,9 +694,19 @@
              Model description for CompanyLogoResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.CompanyLogoResult.Companylogos">
+            <summary>
+            Companylogos
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.CompanyResult">
             <summary>
              Model description for CompanyResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyResult.Companies">
+            <summary>
+            Companies
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.CompanyWebsite">
@@ -119,9 +714,39 @@
              Model description for CompanyWebsite
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.CompanyWebsite.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyWebsite.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyWebsite.Trusted">
+            <summary>
+            Trusted
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyWebsite.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyWebsite.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.CompanyWebsiteResult">
             <summary>
              Model description for CompanyWebsiteResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CompanyWebsiteResult.Companywebsites">
+            <summary>
+            Companywebsites
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Cover">
@@ -129,9 +754,59 @@
              Model description for Cover
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Cover.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Cover.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Cover.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Cover.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Cover.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Cover.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Cover.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Cover.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Cover.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.CoverResult">
             <summary>
              Model description for CoverResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CoverResult.Covers">
+            <summary>
+            Covers
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Credit">
@@ -139,9 +814,89 @@
              Model description for Credit
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Character">
+            <summary>
+            Character
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.CharacterCreditedName">
+            <summary>
+            CharacterCreditedName
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Comment">
+            <summary>
+            Comment
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Country">
+            <summary>
+            Country
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.CreditedName">
+            <summary>
+            CreditedName
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Person">
+            <summary>
+            Person
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.PersonTitle">
+            <summary>
+            PersonTitle
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Position">
+            <summary>
+            Position
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Credit.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.CreditResult">
             <summary>
              Model description for CreditResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.CreditResult.Credits">
+            <summary>
+            Credits
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.AchievementCategoryEnum">
@@ -149,9 +904,54 @@
              Enum description for AchievementCategoryEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementCategoryEnum.ACHIEVEMENT_CATEGORY_NULL">
+            <summary>
+            ACHIEVEMENT_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementCategoryEnum.PLAYSTATION">
+            <summary>
+            PLAYSTATION
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementCategoryEnum.XBOX">
+            <summary>
+            XBOX
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementCategoryEnum.STEAM">
+            <summary>
+            STEAM
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.AchievementRankEnum">
             <summary>
              Enum description for AchievementRankEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementRankEnum.ACHIEVEMENT_RANK_NULL">
+            <summary>
+            ACHIEVEMENT_RANK_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementRankEnum.BRONZE">
+            <summary>
+            BRONZE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementRankEnum.SILVER">
+            <summary>
+            SILVER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementRankEnum.GOLD">
+            <summary>
+            GOLD
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AchievementRankEnum.PLATINUM">
+            <summary>
+            PLATINUM
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.AgeRatingCategoryEnum">
@@ -159,9 +959,89 @@
              Enum description for AgeRatingCategoryEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingCategoryEnum.AGERATING_CATEGORY_NULL">
+            <summary>
+            AGERATING_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingCategoryEnum.ESRB">
+            <summary>
+            ESRB
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingCategoryEnum.PEGI">
+            <summary>
+            PEGI
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum">
             <summary>
              Enum description for AgeRatingRatingEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.AGERATING_RATING_NULL">
+            <summary>
+            AGERATING_RATING_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.THREE">
+            <summary>
+            THREE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.SEVEN">
+            <summary>
+            SEVEN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.TWELVE">
+            <summary>
+            TWELVE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.SIXTEEN">
+            <summary>
+            SIXTEEN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.EIGHTEEN">
+            <summary>
+            EIGHTEEN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.RP">
+            <summary>
+            RP
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.EC">
+            <summary>
+            EC
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.E">
+            <summary>
+            E
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.E10">
+            <summary>
+            E
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.T">
+            <summary>
+            T
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.M">
+            <summary>
+            M
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.AgeRatingRatingEnum.AO">
+            <summary>
+            AO
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.CharacterSpeciesEnum">
@@ -169,9 +1049,69 @@
              Enum description for CharacterSpeciesEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CharacterSpeciesEnum.CHARACTER_SPECIES_NULL">
+            <summary>
+            CHARACTER_SPECIES_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CharacterSpeciesEnum.HUMAN">
+            <summary>
+            HUMAN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CharacterSpeciesEnum.ALIEN">
+            <summary>
+            ALIEN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CharacterSpeciesEnum.ANIMAL">
+            <summary>
+            ANIMAL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CharacterSpeciesEnum.ANDROID">
+            <summary>
+            ANDROID
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CharacterSpeciesEnum.UNKNOWN">
+            <summary>
+            UNKNOWN
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.ColorColorEnum">
             <summary>
              Enum description for ColorColorEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ColorColorEnum.GREEN">
+            <summary>
+            GREEN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ColorColorEnum.BLUE">
+            <summary>
+            BLUE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ColorColorEnum.RED">
+            <summary>
+            RED
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ColorColorEnum.ORANGE">
+            <summary>
+            ORANGE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ColorColorEnum.PINK">
+            <summary>
+            PINK
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ColorColorEnum.YELLOW">
+            <summary>
+            YELLOW
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.CreditCategoryEnum">
@@ -179,9 +1119,84 @@
              Enum description for CreditCategoryEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CreditCategoryEnum.CREDIT_CATEGORY_NULL">
+            <summary>
+            CREDIT_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CreditCategoryEnum.VOICE_ACTOR">
+            <summary>
+            VOICE_ACTOR
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CreditCategoryEnum.LANGUAGE">
+            <summary>
+            LANGUAGE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CreditCategoryEnum.COMPANY_CREDIT">
+            <summary>
+            COMPANY_CREDIT
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CreditCategoryEnum.EMPLOYEE">
+            <summary>
+            EMPLOYEE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CreditCategoryEnum.MISC">
+            <summary>
+            MISC
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.CreditCategoryEnum.SUPPORT_COMPANY">
+            <summary>
+            SUPPORT_COMPANY
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum">
             <summary>
              Enum description for DateFormatChangeDateCategoryEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum.YYYYMMMMDD">
+            <summary>
+            YYYYMMMMDD
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum.YYYYMMMM">
+            <summary>
+            YYYYMMMM
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum.YYYY">
+            <summary>
+            YYYY
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum.YYYYQ1">
+            <summary>
+            YYYYQ1
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum.YYYYQ2">
+            <summary>
+            YYYYQ2
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum.YYYYQ3">
+            <summary>
+            YYYYQ3
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum.YYYYQ4">
+            <summary>
+            YYYYQ4
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.DateFormatChangeDateCategoryEnum.TBD">
+            <summary>
+            TBD
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum">
@@ -189,9 +1204,64 @@
              Enum description for ExternalGameCategoryEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum.EXTERNALGAME_CATEGORY_NULL">
+            <summary>
+            EXTERNALGAME_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum.EXTERNALGAME_STEAM">
+            <summary>
+            EXTERNALGAME_STEAM
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum.EXTERNALGAME_GOG">
+            <summary>
+            EXTERNALGAME_GOG
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum.EXTERNALGAME_YOUTUBE">
+            <summary>
+            EXTERNALGAME_YOUTUBE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum.EXTERNALGAME_MICROSOFT">
+            <summary>
+            EXTERNALGAME_MICROSOFT
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum.EXTERNALGAME_APPLE">
+            <summary>
+            EXTERNALGAME_APPLE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum.EXTERNALGAME_TWITCH">
+            <summary>
+            EXTERNALGAME_TWITCH
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameCategoryEnum.EXTERNALGAME_ANDROID">
+            <summary>
+            EXTERNALGAME_ANDROID
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.ExternalGameMediaEnum">
             <summary>
              Enum description for ExternalGameMediaEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameMediaEnum.EXTERNALGAME_MEDIA_NULL">
+            <summary>
+            EXTERNALGAME_MEDIA_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameMediaEnum.EXTERNALGAME_DIGITAL">
+            <summary>
+            EXTERNALGAME_DIGITAL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ExternalGameMediaEnum.EXTERNALGAME_PHYSICAL">
+            <summary>
+            EXTERNALGAME_PHYSICAL
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.FeedCategoryEnum">
@@ -199,9 +1269,79 @@
              Enum description for FeedCategoryEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.FeedCategoryEnum.FEED_CATEGORY_NULL">
+            <summary>
+            FEED_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.FeedCategoryEnum.PULSE_ARTICLE">
+            <summary>
+            PULSE_ARTICLE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.FeedCategoryEnum.COMING_SOON">
+            <summary>
+            COMING_SOON
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.FeedCategoryEnum.NEW_TRAILER">
+            <summary>
+            NEW_TRAILER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.FeedCategoryEnum.USER_CONTRIBUTED_ITEM">
+            <summary>
+            USER_CONTRIBUTED_ITEM
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.FeedCategoryEnum.USER_CONTRIBUTIONS_ITEM">
+            <summary>
+            USER_CONTRIBUTIONS_ITEM
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.FeedCategoryEnum.PAGE_CONTRIBUTED_ITEM">
+            <summary>
+            PAGE_CONTRIBUTED_ITEM
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.GameCategoryEnum">
             <summary>
              Enum description for GameCategoryEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameCategoryEnum.MAIN_GAME">
+            <summary>
+            MAIN_GAME
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameCategoryEnum.DLC_ADDON">
+            <summary>
+            DLC_ADDON
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameCategoryEnum.EXPANSION">
+            <summary>
+            EXPANSION
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameCategoryEnum.BUNDLE">
+            <summary>
+            BUNDLE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameCategoryEnum.STANDALONE_EXPANSION">
+            <summary>
+            STANDALONE_EXPANSION
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameCategoryEnum.MOD">
+            <summary>
+            MOD
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameCategoryEnum.EPISODE">
+            <summary>
+            EPISODE
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.GameStatusEnum">
@@ -209,9 +1349,54 @@
              Enum description for GameStatusEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameStatusEnum.RELEASED">
+            <summary>
+            RELEASED
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameStatusEnum.ALPHA">
+            <summary>
+            ALPHA
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameStatusEnum.BETA">
+            <summary>
+            BETA
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameStatusEnum.EARLY_ACCESS">
+            <summary>
+            EARLY_ACCESS
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameStatusEnum.OFFLINE">
+            <summary>
+            OFFLINE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameStatusEnum.CANCELLED">
+            <summary>
+            CANCELLED
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameStatusEnum.RUMORED">
+            <summary>
+            RUMORED
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.GameVersionFeatureCategoryEnum">
             <summary>
              Enum description for GameVersionFeatureCategoryEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameVersionFeatureCategoryEnum.BOOLEAN">
+            <summary>
+            BOOLEAN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameVersionFeatureCategoryEnum.DESCRIPTION">
+            <summary>
+            DESCRIPTION
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.GameVersionFeatureValueIncludedFeatureEnum">
@@ -219,9 +1404,44 @@
              Enum description for GameVersionFeatureValueIncludedFeatureEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameVersionFeatureValueIncludedFeatureEnum.NOT_INCLUDED">
+            <summary>
+            NOT_INCLUDED
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameVersionFeatureValueIncludedFeatureEnum.INCLUDED">
+            <summary>
+            INCLUDED
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GameVersionFeatureValueIncludedFeatureEnum.PRE_ORDER_ONLY">
+            <summary>
+            PRE_ORDER_ONLY
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.GenderGenderEnum">
             <summary>
              Enum description for GenderGenderEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GenderGenderEnum.GENDER_GENDER_NULL">
+            <summary>
+            GENDER_GENDER_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GenderGenderEnum.MALE">
+            <summary>
+            MALE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GenderGenderEnum.FEMALE">
+            <summary>
+            FEMALE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.GenderGenderEnum.OTHER">
+            <summary>
+            OTHER
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.PageCategoryEnum">
@@ -229,9 +1449,69 @@
              Enum description for PageCategoryEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageCategoryEnum.PAGE_CATEGORY_NULL">
+            <summary>
+            PAGE_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageCategoryEnum.PERSONALITY">
+            <summary>
+            PERSONALITY
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageCategoryEnum.MEDIA_ORGANIZATION">
+            <summary>
+            MEDIA_ORGANIZATION
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageCategoryEnum.CONTENT_CREATOR">
+            <summary>
+            CONTENT_CREATOR
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageCategoryEnum.CLAN_TEAM">
+            <summary>
+            CLAN_TEAM
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.PageSubCategoryEnum">
             <summary>
              Enum description for PageSubCategoryEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageSubCategoryEnum.PAGE_SUB_CATEGORY_NULL">
+            <summary>
+            PAGE_SUB_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageSubCategoryEnum.USER">
+            <summary>
+            USER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageSubCategoryEnum.GAME">
+            <summary>
+            GAME
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageSubCategoryEnum.COMPANY">
+            <summary>
+            COMPANY
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageSubCategoryEnum.CONSUMER">
+            <summary>
+            CONSUMER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageSubCategoryEnum.INDUSTRY">
+            <summary>
+            INDUSTRY
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PageSubCategoryEnum.E_SPORTS">
+            <summary>
+            E_SPORTS
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.PlatformCategoryEnum">
@@ -239,9 +1519,99 @@
              Enum description for PlatformCategoryEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PlatformCategoryEnum.PLATFORM_CATEGORY_NULL">
+            <summary>
+            PLATFORM_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PlatformCategoryEnum.CONSOLE">
+            <summary>
+            CONSOLE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PlatformCategoryEnum.ARCADE">
+            <summary>
+            ARCADE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PlatformCategoryEnum.PLATFORM">
+            <summary>
+            PLATFORM
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PlatformCategoryEnum.OPERATING_SYSTEM">
+            <summary>
+            OPERATING_SYSTEM
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PlatformCategoryEnum.PORTABLE_CONSOLE">
+            <summary>
+            PORTABLE_CONSOLE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.PlatformCategoryEnum.COMPUTER">
+            <summary>
+            COMPUTER
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.RegionLanguageEnum">
             <summary>
              Enum description for RegionLanguageEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.REGION_LANGUAGE_NULL">
+            <summary>
+            REGION_LANGUAGE_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.EUROPE">
+            <summary>
+            EUROPE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.NORTH_AMERICA">
+            <summary>
+            NORTH_AMERICA
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.AUSTRALIA">
+            <summary>
+            AUSTRALIA
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.NEW_ZELAND">
+            <summary>
+            NEW_ZELAND
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.JAPAN">
+            <summary>
+            JAPAN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.CHINA">
+            <summary>
+            CHINA
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.ASIA">
+            <summary>
+            ASIA
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.WORLDWIDE">
+            <summary>
+            WORLDWIDE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.HONG_KONG">
+            <summary>
+            HONG_KONG
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.RegionLanguageEnum.SOUTH_KOREA">
+            <summary>
+            SOUTH_KOREA
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.ReviewCategoryEnum">
@@ -249,9 +1619,39 @@
              Enum description for ReviewCategoryEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ReviewCategoryEnum.REVIEW_CATEGORY_NULL">
+            <summary>
+            REVIEW_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ReviewCategoryEnum.TEXT">
+            <summary>
+            TEXT
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.ReviewCategoryEnum.VIDEO">
+            <summary>
+            VIDEO
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.TestDummyEnumTestEnum">
             <summary>
              Enum description for TestDummyEnumTestEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.TestDummyEnumTestEnum.TESTDUMMY_ENUM_TEST_NULL">
+            <summary>
+            TESTDUMMY_ENUM_TEST_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.TestDummyEnumTestEnum.ENUM1">
+            <summary>
+            ENUM1
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.TestDummyEnumTestEnum.ENUM2">
+            <summary>
+            ENUM2
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Enums.UserRoleEnum">
@@ -259,9 +1659,129 @@
              Enum description for UserRoleEnum
             </summary>
         </member>
+        <member name="F:IGDB.DotNet.Models.Enums.UserRoleEnum.USER_ROLE_NULL">
+            <summary>
+            USER_ROLE_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.UserRoleEnum.USER_USER">
+            <summary>
+            USER_USER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.UserRoleEnum.USER_ADVANCED_USER">
+            <summary>
+            USER_ADVANCED_USER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.UserRoleEnum.USER_SUPER_ADVANCED_USER">
+            <summary>
+            USER_SUPER_ADVANCED_USER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.UserRoleEnum.USER_KEEPER">
+            <summary>
+            USER_KEEPER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.UserRoleEnum.USER_ADMIN">
+            <summary>
+            USER_ADMIN
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.UserRoleEnum.USER_SUPER_ADMIN">
+            <summary>
+            USER_SUPER_ADMIN
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum">
             <summary>
              Enum description for WebsiteCategoryEnum
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_CATEGORY_NULL">
+            <summary>
+            WEBSITE_CATEGORY_NULL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_OFFICIAL">
+            <summary>
+            WEBSITE_OFFICIAL
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_WIKIA">
+            <summary>
+            WEBSITE_WIKIA
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_WIKIPEDIA">
+            <summary>
+            WEBSITE_WIKIPEDIA
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_FACEBOOK">
+            <summary>
+            WEBSITE_FACEBOOK
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_TWITTER">
+            <summary>
+            WEBSITE_TWITTER
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_TWITCH">
+            <summary>
+            WEBSITE_TWITCH
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_INSTAGRAM">
+            <summary>
+            WEBSITE_INSTAGRAM
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_YOUTUBE">
+            <summary>
+            WEBSITE_YOUTUBE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_IPHONE">
+            <summary>
+            WEBSITE_IPHONE
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_IPAD">
+            <summary>
+            WEBSITE_IPAD
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_ANDROID">
+            <summary>
+            WEBSITE_ANDROID
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_STEAM">
+            <summary>
+            WEBSITE_STEAM
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_REDDIT">
+            <summary>
+            WEBSITE_REDDIT
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_ITCH">
+            <summary>
+            WEBSITE_ITCH
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_EPICGAMES">
+            <summary>
+            WEBSITE_EPICGAMES
+            </summary>
+        </member>
+        <member name="F:IGDB.DotNet.Models.Enums.WebsiteCategoryEnum.WEBSITE_GOG">
+            <summary>
+            WEBSITE_GOG
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.ExternalGame">
@@ -269,9 +1789,79 @@
              Model description for ExternalGame
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Uid">
+            <summary>
+            Uid
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Year">
+            <summary>
+            Year
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Media">
+            <summary>
+            Media
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Platform">
+            <summary>
+            Platform
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Countries">
+            <summary>
+            Countries
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGame.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ExternalGameResult">
             <summary>
              Model description for ExternalGameResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ExternalGameResult.Externalgames">
+            <summary>
+            Externalgames
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Feed">
@@ -279,9 +1869,129 @@
              Model description for Feed
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Content">
+            <summary>
+            Content
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.FeedLikesCount">
+            <summary>
+            FeedLikesCount
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.FeedVideo">
+            <summary>
+            FeedVideo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Games">
+            <summary>
+            Games
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Meta">
+            <summary>
+            Meta
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.PublishedAt">
+            <summary>
+            PublishedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Pulse">
+            <summary>
+            Pulse
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Title">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Uid">
+            <summary>
+            Uid
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Feed.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.FeedFollow">
             <summary>
              Model description for FeedFollow
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FeedFollow.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FeedFollow.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FeedFollow.Feed">
+            <summary>
+            Feed
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FeedFollow.PublishedAt">
+            <summary>
+            PublishedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FeedFollow.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FeedFollow.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FeedFollow.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.FeedFollowResult">
@@ -289,9 +1999,19 @@
              Model description for FeedFollowResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.FeedFollowResult.Feedfollows">
+            <summary>
+            Feedfollows
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.FeedResult">
             <summary>
              Model description for FeedResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FeedResult.Feeds">
+            <summary>
+            Feeds
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Follow">
@@ -299,9 +2019,34 @@
              Model description for Follow
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Follow.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Follow.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Follow.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Follow.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.FollowResult">
             <summary>
              Model description for FollowResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FollowResult.Follows">
+            <summary>
+            Follows
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Franchise">
@@ -309,9 +2054,54 @@
              Model description for Franchise
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Franchise.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Franchise.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Franchise.Games">
+            <summary>
+            Games
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Franchise.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Franchise.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Franchise.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Franchise.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Franchise.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.FranchiseResult">
             <summary>
              Model description for FranchiseResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.FranchiseResult.Franchises">
+            <summary>
+            Franchises
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Game">
@@ -319,9 +2109,329 @@
              Model description for Game
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Game.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.AgeRatings">
+            <summary>
+            AgeRatings
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.AggregatedRating">
+            <summary>
+            AggregatedRating
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.AggregatedRatingCount">
+            <summary>
+            AggregatedRatingCount
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.AlternativeNames">
+            <summary>
+            AlternativeNames
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Artworks">
+            <summary>
+            Artworks
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Bundles">
+            <summary>
+            Bundles
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Collection">
+            <summary>
+            Collection
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Cover">
+            <summary>
+            Cover
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Dlcs">
+            <summary>
+            Dlcs
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Expansions">
+            <summary>
+            Expansions
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.ExternalGames">
+            <summary>
+            ExternalGames
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.FirstReleaseDate">
+            <summary>
+            FirstReleaseDate
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Follows">
+            <summary>
+            Follows
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Franchise">
+            <summary>
+            Franchise
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Franchises">
+            <summary>
+            Franchises
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.GameEngines">
+            <summary>
+            GameEngines
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.GameModes">
+            <summary>
+            GameModes
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Genres">
+            <summary>
+            Genres
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Hypes">
+            <summary>
+            Hypes
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.InvolvedCompanies">
+            <summary>
+            InvolvedCompanies
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Keywords">
+            <summary>
+            Keywords
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.MultiplayerModes">
+            <summary>
+            MultiplayerModes
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.ParentGame">
+            <summary>
+            ParentGame
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Platforms">
+            <summary>
+            Platforms
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.PlayerPerspectives">
+            <summary>
+            PlayerPerspectives
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Popularity">
+            <summary>
+            Popularity
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.PulseCount">
+            <summary>
+            PulseCount
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Rating">
+            <summary>
+            Rating
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.RatingCount">
+            <summary>
+            RatingCount
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.ReleaseDates">
+            <summary>
+            ReleaseDates
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Screenshots">
+            <summary>
+            Screenshots
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.SimilarGames">
+            <summary>
+            SimilarGames
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.StandaloneExpansions">
+            <summary>
+            StandaloneExpansions
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Status">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Storyline">
+            <summary>
+            Storyline
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Summary">
+            <summary>
+            Summary
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Tags">
+            <summary>
+            Tags
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Themes">
+            <summary>
+            Themes
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.TimeToBeat">
+            <summary>
+            TimeToBeat
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.TotalRating">
+            <summary>
+            TotalRating
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.TotalRatingCount">
+            <summary>
+            TotalRatingCount
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.VersionParent">
+            <summary>
+            VersionParent
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.VersionTitle">
+            <summary>
+            VersionTitle
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Videos">
+            <summary>
+            Videos
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Websites">
+            <summary>
+            Websites
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Game.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GameEngine">
             <summary>
              Model description for GameEngine
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Companies">
+            <summary>
+            Companies
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Logo">
+            <summary>
+            Logo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Platforms">
+            <summary>
+            Platforms
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngine.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.GameEngineLogo">
@@ -329,9 +2439,54 @@
              Model description for GameEngineLogo
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogo.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogo.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogo.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogo.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogo.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogo.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogo.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GameEngineLogoResult">
             <summary>
              Model description for GameEngineLogoResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineLogoResult.Gameenginelogos">
+            <summary>
+            Gameenginelogos
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.GameEngineResult">
@@ -339,9 +2494,49 @@
              Model description for GameEngineResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.GameEngineResult.Gameengines">
+            <summary>
+            Gameengines
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GameMode">
             <summary>
              Model description for GameMode
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameMode.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameMode.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameMode.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameMode.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameMode.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameMode.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameMode.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.GameModeResult">
@@ -349,9 +2544,19 @@
              Model description for GameModeResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.GameModeResult.Gamemodes">
+            <summary>
+            Gamemodes
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GameResult">
             <summary>
              Model description for GameResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameResult.Games">
+            <summary>
+            Games
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.GameVersion">
@@ -359,9 +2564,84 @@
              Model description for GameVersion
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.GameVersion.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersion.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersion.Features">
+            <summary>
+            Features
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersion.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersion.Games">
+            <summary>
+            Games
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersion.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersion.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersion.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GameVersionFeature">
             <summary>
              Model description for GameVersionFeature
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeature.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeature.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeature.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeature.Position">
+            <summary>
+            Position
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeature.Title">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeature.Values">
+            <summary>
+            Values
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeature.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.GameVersionFeatureResult">
@@ -369,9 +2649,44 @@
              Model description for GameVersionFeatureResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeatureResult.Gameversionfeatures">
+            <summary>
+            Gameversionfeatures
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GameVersionFeatureValue">
             <summary>
              Model description for GameVersionFeatureValue
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeatureValue.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeatureValue.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeatureValue.GameFeature">
+            <summary>
+            GameFeature
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeatureValue.IncludedFeature">
+            <summary>
+            IncludedFeature
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeatureValue.Note">
+            <summary>
+            Note
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeatureValue.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.GameVersionFeatureValueResult">
@@ -379,9 +2694,19 @@
              Model description for GameVersionFeatureValueResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionFeatureValueResult.Gameversionfeaturevalues">
+            <summary>
+            Gameversionfeaturevalues
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GameVersionResult">
             <summary>
              Model description for GameVersionResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVersionResult.Gameversions">
+            <summary>
+            Gameversions
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.GameVideo">
@@ -389,9 +2714,39 @@
              Model description for GameVideo
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.GameVideo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVideo.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVideo.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVideo.VideoId">
+            <summary>
+            VideoId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVideo.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GameVideoResult">
             <summary>
              Model description for GameVideoResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GameVideoResult.Gamevideos">
+            <summary>
+            Gamevideos
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Genre">
@@ -399,9 +2754,59 @@
              Model description for Genre
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Genre.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Genre.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Genre.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Genre.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Genre.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Genre.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Genre.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.GenreResult">
             <summary>
              Model description for GenreResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.GenreResult.Genres">
+            <summary>
+            Genres
+            </summary>
+        </member>
+        <member name="T:IGDB.DotNet.Models.IEndpoint">
+            <summary>
+            IEndpoint interface : describes a IGDB endpoint
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.IEndpoint.Id">
+            <summary>
+            Id
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.InvolvedCompany">
@@ -409,9 +2814,64 @@
              Model description for InvolvedCompany
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.Developer">
+            <summary>
+            Developer
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.Porting">
+            <summary>
+            Porting
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.Publisher">
+            <summary>
+            Publisher
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.Supporting">
+            <summary>
+            Supporting
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompany.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.InvolvedCompanyResult">
             <summary>
              Model description for InvolvedCompanyResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.InvolvedCompanyResult.Involvedcompanies">
+            <summary>
+            Involvedcompanies
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Keyword">
@@ -419,9 +2879,49 @@
              Model description for Keyword
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Keyword.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Keyword.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Keyword.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Keyword.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Keyword.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Keyword.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Keyword.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.KeywordResult">
             <summary>
              Model description for KeywordResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.KeywordResult.Keywords">
+            <summary>
+            Keywords
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.List">
@@ -429,9 +2929,134 @@
              Model description for List
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.List.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.EntriesCount">
+            <summary>
+            EntriesCount
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.ListEntries">
+            <summary>
+            ListEntries
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.ListTags">
+            <summary>
+            ListTags
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.ListedGames">
+            <summary>
+            ListedGames
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.Numbering">
+            <summary>
+            Numbering
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.Private">
+            <summary>
+            Private
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.SimilarLists">
+            <summary>
+            SimilarLists
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.List.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ListEntry">
             <summary>
              Model description for ListEntry
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.List">
+            <summary>
+            List
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.Platform">
+            <summary>
+            Platform
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.Position">
+            <summary>
+            Position
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.Private">
+            <summary>
+            Private
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListEntry.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.ListEntryResult">
@@ -439,9 +3064,19 @@
              Model description for ListEntryResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.ListEntryResult.Listentries">
+            <summary>
+            Listentries
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ListResult">
             <summary>
              Model description for ListResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ListResult.Lists">
+            <summary>
+            Lists
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.MultiplayerMode">
@@ -449,9 +3084,89 @@
              Model description for MultiplayerMode
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Campaigncoop">
+            <summary>
+            Campaigncoop
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Dropin">
+            <summary>
+            Dropin
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Lancoop">
+            <summary>
+            Lancoop
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Offlinecoop">
+            <summary>
+            Offlinecoop
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Offlinecoopmax">
+            <summary>
+            Offlinecoopmax
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Offlinemax">
+            <summary>
+            Offlinemax
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Onlinecoop">
+            <summary>
+            Onlinecoop
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Onlinecoopmax">
+            <summary>
+            Onlinecoopmax
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Onlinemax">
+            <summary>
+            Onlinemax
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Platform">
+            <summary>
+            Platform
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Splitscreen">
+            <summary>
+            Splitscreen
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Splitscreenonline">
+            <summary>
+            Splitscreenonline
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerMode.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.MultiplayerModeResult">
             <summary>
              Model description for MultiplayerModeResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiplayerModeResult.Multiplayermodes">
+            <summary>
+            Multiplayermodes
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.MultiQueryResult">
@@ -459,9 +3174,29 @@
              Model description for MultiQueryResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.MultiQueryResult.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiQueryResult.Results">
+            <summary>
+            Results
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiQueryResult.Count">
+            <summary>
+            Count
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.MultiQueryResultArray">
             <summary>
              Model description for MultiQueryResultArray
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.MultiQueryResultArray.Result">
+            <summary>
+            Result
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Page">
@@ -469,9 +3204,164 @@
              Model description for Page
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Page.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Background">
+            <summary>
+            Background
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Battlenet">
+            <summary>
+            Battlenet
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Color">
+            <summary>
+            Color
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Country">
+            <summary>
+            Country
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Feed">
+            <summary>
+            Feed
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Origin">
+            <summary>
+            Origin
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.PageFollowsCount">
+            <summary>
+            PageFollowsCount
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.PageLogo">
+            <summary>
+            PageLogo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.SubCategory">
+            <summary>
+            SubCategory
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Uplay">
+            <summary>
+            Uplay
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Websites">
+            <summary>
+            Websites
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Page.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PageBackground">
             <summary>
              Model description for PageBackground
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageBackground.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageBackground.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageBackground.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageBackground.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageBackground.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageBackground.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageBackground.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageBackground.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PageBackgroundResult">
@@ -479,9 +3369,54 @@
              Model description for PageBackgroundResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PageBackgroundResult.Pagebackgrounds">
+            <summary>
+            Pagebackgrounds
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PageLogo">
             <summary>
              Model description for PageLogo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageLogo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageLogo.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageLogo.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageLogo.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageLogo.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageLogo.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageLogo.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageLogo.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PageLogoResult">
@@ -489,9 +3424,19 @@
              Model description for PageLogoResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PageLogoResult.Pagelogos">
+            <summary>
+            Pagelogos
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PageResult">
             <summary>
              Model description for PageResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageResult.Pages">
+            <summary>
+            Pages
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PageWebsite">
@@ -499,9 +3444,39 @@
              Model description for PageWebsite
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PageWebsite.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageWebsite.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageWebsite.Trusted">
+            <summary>
+            Trusted
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageWebsite.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageWebsite.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PageWebsiteResult">
             <summary>
              Model description for PageWebsiteResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PageWebsiteResult.Pagewebsites">
+            <summary>
+            Pagewebsites
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Person">
@@ -509,9 +3484,139 @@
              Model description for Person
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Person.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Bio">
+            <summary>
+            Bio
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Characters">
+            <summary>
+            Characters
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Country">
+            <summary>
+            Country
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.CreditedGames">
+            <summary>
+            CreditedGames
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Dob">
+            <summary>
+            Dob
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Gender">
+            <summary>
+            Gender
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.LovesCount">
+            <summary>
+            LovesCount
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.MugShot">
+            <summary>
+            MugShot
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Nicknames">
+            <summary>
+            Nicknames
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Parent">
+            <summary>
+            Parent
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.VoiceActed">
+            <summary>
+            VoiceActed
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Websites">
+            <summary>
+            Websites
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Person.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PersonMugShot">
             <summary>
              Model description for PersonMugShot
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonMugShot.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonMugShot.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonMugShot.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonMugShot.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonMugShot.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonMugShot.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PersonMugShotResult">
@@ -519,9 +3624,19 @@
              Model description for PersonMugShotResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PersonMugShotResult.Personmugshots">
+            <summary>
+            Personmugshots
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PersonResult">
             <summary>
              Model description for PersonResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonResult.People">
+            <summary>
+            People
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PersonWebsite">
@@ -529,9 +3644,39 @@
              Model description for PersonWebsite
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PersonWebsite.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonWebsite.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonWebsite.Trusted">
+            <summary>
+            Trusted
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonWebsite.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonWebsite.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PersonWebsiteResult">
             <summary>
              Model description for PersonWebsiteResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PersonWebsiteResult.Personwebsites">
+            <summary>
+            Personwebsites
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Platform">
@@ -539,9 +3684,129 @@
              Model description for Platform
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Abbreviation">
+            <summary>
+            Abbreviation
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.AlternativeName">
+            <summary>
+            AlternativeName
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Generation">
+            <summary>
+            Generation
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.PlatformLogo">
+            <summary>
+            PlatformLogo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.ProductFamily">
+            <summary>
+            ProductFamily
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Summary">
+            <summary>
+            Summary
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Versions">
+            <summary>
+            Versions
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Websites">
+            <summary>
+            Websites
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Platform.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PlatformLogo">
             <summary>
              Model description for PlatformLogo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogo.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogo.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogo.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogo.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogo.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogo.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogo.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PlatformLogoResult">
@@ -549,9 +3814,19 @@
              Model description for PlatformLogoResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PlatformLogoResult.Platformlogos">
+            <summary>
+            Platformlogos
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PlatformResult">
             <summary>
              Model description for PlatformResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformResult.Platforms">
+            <summary>
+            Platforms
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PlatformVersion">
@@ -559,9 +3834,144 @@
              Model description for PlatformVersion
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Companies">
+            <summary>
+            Companies
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Connectivity">
+            <summary>
+            Connectivity
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Cpu">
+            <summary>
+            Cpu
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Graphics">
+            <summary>
+            Graphics
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.MainManufacturer">
+            <summary>
+            MainManufacturer
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Media">
+            <summary>
+            Media
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Memory">
+            <summary>
+            Memory
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Online">
+            <summary>
+            Online
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Os">
+            <summary>
+            Os
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Output">
+            <summary>
+            Output
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.PlatformLogo">
+            <summary>
+            PlatformLogo
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.PlatformVersionReleaseDates">
+            <summary>
+            PlatformVersionReleaseDates
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Resolutions">
+            <summary>
+            Resolutions
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Sound">
+            <summary>
+            Sound
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Storage">
+            <summary>
+            Storage
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Summary">
+            <summary>
+            Summary
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersion.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PlatformVersionCompany">
             <summary>
              Model description for PlatformVersionCompany
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionCompany.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionCompany.Comment">
+            <summary>
+            Comment
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionCompany.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionCompany.Developer">
+            <summary>
+            Developer
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionCompany.Manufacturer">
+            <summary>
+            Manufacturer
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionCompany.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PlatformVersionCompanyResult">
@@ -569,9 +3979,69 @@
              Model description for PlatformVersionCompanyResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionCompanyResult.Platformversioncompanies">
+            <summary>
+            Platformversioncompanies
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PlatformVersionReleaseDate">
             <summary>
              Model description for PlatformVersionReleaseDate
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.Human">
+            <summary>
+            Human
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.M">
+            <summary>
+            M
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.PlatformVersion">
+            <summary>
+            PlatformVersion
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.Region">
+            <summary>
+            Region
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.Y">
+            <summary>
+            Y
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDate.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PlatformVersionReleaseDateResult">
@@ -579,9 +4049,19 @@
              Model description for PlatformVersionReleaseDateResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionReleaseDateResult.Platformversionreleasedates">
+            <summary>
+            Platformversionreleasedates
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PlatformVersionResult">
             <summary>
              Model description for PlatformVersionResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformVersionResult.Platformversions">
+            <summary>
+            Platformversions
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PlatformWebsite">
@@ -589,9 +4069,39 @@
              Model description for PlatformWebsite
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PlatformWebsite.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformWebsite.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformWebsite.Trusted">
+            <summary>
+            Trusted
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformWebsite.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformWebsite.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PlatformWebsiteResult">
             <summary>
              Model description for PlatformWebsiteResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlatformWebsiteResult.Platformwebsites">
+            <summary>
+            Platformwebsites
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PlayerPerspective">
@@ -599,9 +4109,49 @@
              Model description for PlayerPerspective
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PlayerPerspective.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlayerPerspective.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlayerPerspective.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlayerPerspective.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlayerPerspective.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlayerPerspective.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlayerPerspective.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PlayerPerspectiveResult">
             <summary>
              Model description for PlayerPerspectiveResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PlayerPerspectiveResult.Playerperspectives">
+            <summary>
+            Playerperspectives
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.ProductFamily">
@@ -609,9 +4159,34 @@
              Model description for ProductFamily
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.ProductFamily.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ProductFamily.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ProductFamily.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ProductFamily.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ProductFamilyResult">
             <summary>
              Model description for ProductFamilyResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ProductFamilyResult.Productfamilies">
+            <summary>
+            Productfamilies
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Pulse">
@@ -619,9 +4194,139 @@
              Model description for Pulse
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Author">
+            <summary>
+            Author
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Ignored">
+            <summary>
+            Ignored
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Image">
+            <summary>
+            Image
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.PublishedAt">
+            <summary>
+            PublishedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.PulseImage">
+            <summary>
+            PulseImage
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.PulseSource">
+            <summary>
+            PulseSource
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Summary">
+            <summary>
+            Summary
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Tags">
+            <summary>
+            Tags
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Title">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Uid">
+            <summary>
+            Uid
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Videos">
+            <summary>
+            Videos
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Website">
+            <summary>
+            Website
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Pulse.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PulseGroup">
             <summary>
              Model description for PulseGroup
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.PublishedAt">
+            <summary>
+            PublishedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.Pulses">
+            <summary>
+            Pulses
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.Tags">
+            <summary>
+            Tags
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroup.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PulseGroupResult">
@@ -629,9 +4334,54 @@
              Model description for PulseGroupResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PulseGroupResult.Pulsegroups">
+            <summary>
+            Pulsegroups
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PulseImage">
             <summary>
              Model description for PulseImage
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseImage.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseImage.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseImage.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseImage.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseImage.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseImage.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseImage.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseImage.Checksum">
+            <summary>
+            Checksum
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PulseImageResult">
@@ -639,9 +4389,19 @@
              Model description for PulseImageResult
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PulseImageResult.Pulseimages">
+            <summary>
+            Pulseimages
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PulseResult">
             <summary>
              Model description for PulseResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseResult.Pulses">
+            <summary>
+            Pulses
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PulseSource">
@@ -649,9 +4409,39 @@
              Model description for PulseSource
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PulseSource.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseSource.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseSource.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseSource.Page">
+            <summary>
+            Page
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseSource.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PulseSourceResult">
             <summary>
              Model description for PulseSourceResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseSourceResult.Pulsesources">
+            <summary>
+            Pulsesources
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.PulseUrl">
@@ -659,9 +4449,34 @@
              Model description for PulseUrl
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.PulseUrl.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseUrl.Trusted">
+            <summary>
+            Trusted
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseUrl.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseUrl.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.PulseUrlResult">
             <summary>
              Model description for PulseUrlResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.PulseUrlResult.Pulseurls">
+            <summary>
+            Pulseurls
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Rate">
@@ -669,9 +4484,44 @@
              Model description for Rate
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Rate.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Rate.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Rate.Private">
+            <summary>
+            Private
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Rate.Rating">
+            <summary>
+            Rating
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Rate.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Rate.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.RateResult">
             <summary>
              Model description for RateResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.RateResult.Rates">
+            <summary>
+            Rates
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.ReleaseDate">
@@ -679,9 +4529,74 @@
              Model description for ReleaseDate
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Human">
+            <summary>
+            Human
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.M">
+            <summary>
+            M
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Platform">
+            <summary>
+            Platform
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Region">
+            <summary>
+            Region
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Y">
+            <summary>
+            Y
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDate.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ReleaseDateResult">
             <summary>
              Model description for ReleaseDateResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReleaseDateResult.Releasedates">
+            <summary>
+            Releasedates
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Review">
@@ -689,9 +4604,114 @@
              Model description for Review
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Review.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Conclusion">
+            <summary>
+            Conclusion
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Content">
+            <summary>
+            Content
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Introduction">
+            <summary>
+            Introduction
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Likes">
+            <summary>
+            Likes
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.NegativePoints">
+            <summary>
+            NegativePoints
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Platform">
+            <summary>
+            Platform
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.PositivePoints">
+            <summary>
+            PositivePoints
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Title">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.UserRating">
+            <summary>
+            UserRating
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Video">
+            <summary>
+            Video
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Views">
+            <summary>
+            Views
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Review.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ReviewResult">
             <summary>
              Model description for ReviewResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReviewResult.Reviews">
+            <summary>
+            Reviews
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.ReviewVideo">
@@ -699,9 +4719,34 @@
              Model description for ReviewVideo
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.ReviewVideo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReviewVideo.Trusted">
+            <summary>
+            Trusted
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReviewVideo.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReviewVideo.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ReviewVideoResult">
             <summary>
              Model description for ReviewVideoResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ReviewVideoResult.Reviewvideos">
+            <summary>
+            Reviewvideos
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Screenshot">
@@ -709,9 +4754,59 @@
              Model description for Screenshot
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.AlphaChannel">
+            <summary>
+            AlphaChannel
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.Animated">
+            <summary>
+            Animated
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.ImageId">
+            <summary>
+            ImageId
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Screenshot.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ScreenshotResult">
             <summary>
              Model description for ScreenshotResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ScreenshotResult.Screenshots">
+            <summary>
+            Screenshots
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Search">
@@ -719,9 +4814,89 @@
              Model description for Search
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Search.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.AlternativeName">
+            <summary>
+            AlternativeName
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Character">
+            <summary>
+            Character
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Collection">
+            <summary>
+            Collection
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Person">
+            <summary>
+            Person
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Platform">
+            <summary>
+            Platform
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Popularity">
+            <summary>
+            Popularity
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.PublishedAt">
+            <summary>
+            PublishedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.TestDummy">
+            <summary>
+            TestDummy
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Theme">
+            <summary>
+            Theme
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Search.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.SearchResult">
             <summary>
              Model description for SearchResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.SearchResult.Searches">
+            <summary>
+            Searches
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.TestDummy">
@@ -729,9 +4904,99 @@
              Model description for TestDummy
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.BoolValue">
+            <summary>
+            BoolValue
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.EnumTest">
+            <summary>
+            EnumTest
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.FloatValue">
+            <summary>
+            FloatValue
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.IntegerArray">
+            <summary>
+            IntegerArray
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.IntegerValue">
+            <summary>
+            IntegerValue
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.NewIntegerValue">
+            <summary>
+            NewIntegerValue
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.Private">
+            <summary>
+            Private
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.StringArray">
+            <summary>
+            StringArray
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummy.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.TestDummyResult">
             <summary>
              Model description for TestDummyResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TestDummyResult.Testdummies">
+            <summary>
+            Testdummies
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Theme">
@@ -739,9 +5004,49 @@
              Model description for Theme
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Theme.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Theme.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Theme.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Theme.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Theme.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Theme.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Theme.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.ThemeResult">
             <summary>
              Model description for ThemeResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.ThemeResult.Themes">
+            <summary>
+            Themes
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.TimeToBeat">
@@ -749,9 +5054,44 @@
              Model description for TimeToBeat
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.TimeToBeat.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TimeToBeat.Completely">
+            <summary>
+            Completely
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TimeToBeat.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TimeToBeat.Hastly">
+            <summary>
+            Hastly
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TimeToBeat.Normally">
+            <summary>
+            Normally
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TimeToBeat.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.TimeToBeatResult">
             <summary>
              Model description for TimeToBeatResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TimeToBeatResult.Timetobeats">
+            <summary>
+            Timetobeats
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Title">
@@ -759,9 +5099,59 @@
              Model description for Title
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Title.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Title.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Title.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Title.Games">
+            <summary>
+            Games
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Title.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Title.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Title.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Title.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Title.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.TitleResult">
             <summary>
              Model description for TitleResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.TitleResult.Titles">
+            <summary>
+            Titles
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.User">
@@ -769,9 +5159,139 @@
              Model description for User
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.User.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Battlenet">
+            <summary>
+            Battlenet
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Color">
+            <summary>
+            Color
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.CreatedAt">
+            <summary>
+            CreatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Discord">
+            <summary>
+            Discord
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Facebook">
+            <summary>
+            Facebook
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.GooglePlus">
+            <summary>
+            GooglePlus
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Instagram">
+            <summary>
+            Instagram
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Linkedin">
+            <summary>
+            Linkedin
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Origin">
+            <summary>
+            Origin
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Pinterest">
+            <summary>
+            Pinterest
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Presentation">
+            <summary>
+            Presentation
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Reddit">
+            <summary>
+            Reddit
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Role">
+            <summary>
+            Role
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Slug">
+            <summary>
+            Slug
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Soundcloud">
+            <summary>
+            Soundcloud
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Steam">
+            <summary>
+            Steam
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Twitch">
+            <summary>
+            Twitch
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Twitter">
+            <summary>
+            Twitter
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.UpdatedAt">
+            <summary>
+            UpdatedAt
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Uplay">
+            <summary>
+            Uplay
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Username">
+            <summary>
+            Username
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Youtube">
+            <summary>
+            Youtube
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.User.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.UserResult">
             <summary>
              Model description for UserResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.UserResult.Users">
+            <summary>
+            Users
             </summary>
         </member>
         <member name="T:IGDB.DotNet.Models.Website">
@@ -779,9 +5299,44 @@
              Model description for Website
             </summary>
         </member>
+        <member name="P:IGDB.DotNet.Models.Website.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Website.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Website.Game">
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Website.Trusted">
+            <summary>
+            Trusted
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Website.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.Website.Checksum">
+            <summary>
+            Checksum
+            </summary>
+        </member>
         <member name="T:IGDB.DotNet.Models.WebsiteResult">
             <summary>
              Model description for WebsiteResult
+            </summary>
+        </member>
+        <member name="P:IGDB.DotNet.Models.WebsiteResult.Websites">
+            <summary>
+            Websites
             </summary>
         </member>
     </members>

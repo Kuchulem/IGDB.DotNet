@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class GameModeResult
     {
+
+        /// <summary>
+        /// Gamemodes
+        /// </summary>
         public IEnumerable<GameMode> Gamemodes { get; set; }
     }
 

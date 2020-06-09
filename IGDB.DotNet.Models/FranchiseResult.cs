@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class FranchiseResult
     {
+
+        /// <summary>
+        /// Franchises
+        /// </summary>
         public IEnumerable<Franchise> Franchises { get; set; }
     }
 

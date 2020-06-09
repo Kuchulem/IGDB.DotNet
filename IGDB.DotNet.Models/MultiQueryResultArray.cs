@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class MultiQueryResultArray
     {
+
+        /// <summary>
+        /// Result
+        /// </summary>
         public IEnumerable<MultiQueryResult> Result { get; set; }
     }
 

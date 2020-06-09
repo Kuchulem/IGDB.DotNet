@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class PulseSourceResult
     {
+
+        /// <summary>
+        /// Pulsesources
+        /// </summary>
         public IEnumerable<PulseSource> Pulsesources { get; set; }
     }
 

@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class GameEngineResult
     {
+
+        /// <summary>
+        /// Gameengines
+        /// </summary>
         public IEnumerable<GameEngine> Gameengines { get; set; }
     }
 

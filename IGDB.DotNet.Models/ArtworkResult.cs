@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class ArtworkResult
     {
+
+        /// <summary>
+        /// Artworks
+        /// </summary>
         public IEnumerable<Artwork> Artworks { get; set; }
     }
 

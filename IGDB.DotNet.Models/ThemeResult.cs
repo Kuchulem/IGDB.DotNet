@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class ThemeResult
     {
+
+        /// <summary>
+        /// Themes
+        /// </summary>
         public IEnumerable<Theme> Themes { get; set; }
     }
 

@@ -5,7 +5,15 @@
     ///</summary>
     public enum GameVersionFeatureCategoryEnum
     {
+
+        /// <summary>
+        /// BOOLEAN
+        /// </summary>
         BOOLEAN = 0,
+
+        /// <summary>
+        /// DESCRIPTION
+        /// </summary>
         DESCRIPTION = 1,
     }
 }

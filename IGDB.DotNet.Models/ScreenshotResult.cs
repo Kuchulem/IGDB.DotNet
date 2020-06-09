@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class ScreenshotResult
     {
+
+        /// <summary>
+        /// Screenshots
+        /// </summary>
         public IEnumerable<Screenshot> Screenshots { get; set; }
     }
 

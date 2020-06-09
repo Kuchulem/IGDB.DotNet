@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class PlatformVersionResult
     {
+
+        /// <summary>
+        /// Platformversions
+        /// </summary>
         public IEnumerable<PlatformVersion> Platformversions { get; set; }
     }
 

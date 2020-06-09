@@ -5,8 +5,20 @@
     ///</summary>
     public enum ReviewCategoryEnum
     {
+
+        /// <summary>
+        /// REVIEW_CATEGORY_NULL
+        /// </summary>
         REVIEW_CATEGORY_NULL = 0,
+
+        /// <summary>
+        /// TEXT
+        /// </summary>
         TEXT = 1,
+
+        /// <summary>
+        /// VIDEO
+        /// </summary>
         VIDEO = 2,
     }
 }

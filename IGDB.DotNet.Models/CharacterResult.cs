@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class CharacterResult
     {
+
+        /// <summary>
+        /// Characters
+        /// </summary>
         public IEnumerable<Character> Characters { get; set; }
     }
 

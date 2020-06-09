@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class InvolvedCompanyResult
     {
+
+        /// <summary>
+        /// Involvedcompanies
+        /// </summary>
         public IEnumerable<InvolvedCompany> Involvedcompanies { get; set; }
     }
 

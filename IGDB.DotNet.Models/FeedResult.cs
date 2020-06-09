@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class FeedResult
     {
+
+        /// <summary>
+        /// Feeds
+        /// </summary>
         public IEnumerable<Feed> Feeds { get; set; }
     }
 

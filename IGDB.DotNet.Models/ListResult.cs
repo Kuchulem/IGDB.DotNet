@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class ListResult
     {
+
+        /// <summary>
+        /// Lists
+        /// </summary>
         public IEnumerable<List> Lists { get; set; }
     }
 

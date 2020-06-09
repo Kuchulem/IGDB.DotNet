@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class TestDummyResult
     {
+
+        /// <summary>
+        /// Testdummies
+        /// </summary>
         public IEnumerable<TestDummy> Testdummies { get; set; }
     }
 

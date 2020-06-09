@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class PageBackgroundResult
     {
+
+        /// <summary>
+        /// Pagebackgrounds
+        /// </summary>
         public IEnumerable<PageBackground> Pagebackgrounds { get; set; }
     }
 

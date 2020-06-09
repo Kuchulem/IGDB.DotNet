@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class GenreResult
     {
+
+        /// <summary>
+        /// Genres
+        /// </summary>
         public IEnumerable<Genre> Genres { get; set; }
     }
 

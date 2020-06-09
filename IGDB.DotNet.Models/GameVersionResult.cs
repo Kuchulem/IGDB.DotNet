@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class GameVersionResult
     {
+
+        /// <summary>
+        /// Gameversions
+        /// </summary>
         public IEnumerable<GameVersion> Gameversions { get; set; }
     }
 

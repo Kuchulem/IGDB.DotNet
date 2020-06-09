@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class AgeRatingResult
     {
+
+        /// <summary>
+        /// Ageratings
+        /// </summary>
         public IEnumerable<AgeRating> Ageratings { get; set; }
     }
 

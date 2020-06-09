@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class CompanyWebsiteResult
     {
+
+        /// <summary>
+        /// Companywebsites
+        /// </summary>
         public IEnumerable<CompanyWebsite> Companywebsites { get; set; }
     }
 

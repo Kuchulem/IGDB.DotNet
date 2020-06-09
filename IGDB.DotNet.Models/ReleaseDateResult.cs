@@ -7,6 +7,10 @@ namespace IGDB.DotNet.Models
     ///</summary>
     public class ReleaseDateResult
     {
+
+        /// <summary>
+        /// Releasedates
+        /// </summary>
         public IEnumerable<ReleaseDate> Releasedates { get; set; }
     }
 
